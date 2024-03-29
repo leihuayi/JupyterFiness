@@ -35,14 +35,26 @@ Les éléments qui nous intéressent dans cet exercice sont:
 
 # En pratique 🛠
 
-Un rendu sous la forme d'un notebook Jupyter et utilisant Python sera à privilégier.
-À défaut, vous pouvez utiliser les technologies de votre choix pour traiter l'exercice.
+## Installation
+```
+# cloner le repo
+git clone ...
 
-Ce travail devrait prendre entre 2h et 3h de temps.
-En fonction de votre profil, nous n'attendons pas forcément à ce que l'exercice soit terminé au bout de ce temps.
-Nous souhaitons évaluer votre niveau de compétence pas le niveau de complétion de l'exercice.
+# aller dans le bon dossier
+cd JupyterFiness
 
-Le partage de votre travail se fera sur un dépôt personnel qui clonera ce dépôt.
-Vous nous communiquerez le lien de ce dépôt au moins 24h avant l'entretien.
+# créer l'environnement python avec les bonnes librairies
+conda create -n finess python=3.8 jupyter pandas plotly
+```
 
-Une partie de l'entretien sera consacré à une discussion autour de votre réponse à cet exercice.
+## Lancer le notebook
+```
+# aller dans le bon dossier
+cd JupyterFiness
+
+# activer l'environnement python
+conda activate finess
+
+# lancer le notebook
+jupyter notebook
+```
