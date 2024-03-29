@@ -44,7 +44,7 @@ git clone ...
 cd JupyterFiness
 
 # créer l'environnement python avec les bonnes librairies
-conda create -n finess python=3.8 jupyter pandas plotly
+conda create -n finess python=3.8 jupyter pandas matplotlib
 ```
 
 ## Lancer le notebook
